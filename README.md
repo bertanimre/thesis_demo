@@ -1,2 +1,8 @@
 # thesis_demo
-The demo of my master's thesis
+This repository is about the demo of my master's thesis. 
+
+## Abstract
+Supply chains play a critical role in many industries, and many companies are part of one or more supply chains. Due to their size and complexity, supply chains are subject to many internal and external crises. This thesis aims to utilize reinforcement learning to optimize an intervention plan in the supply chain field under crises and compares PPO, TD3, and SAC algorithms to see whether there is a superior reinforcement algorithm to reach this aim. A supply chain and crises of different sizes are simulated to make this comparison. Then, after tuning the hyperparameters of PPO, TD3, and SAC algorithms, these reinforcement algorithms perform the learning process to find the best solution against the crises. According to the results, even if some algorithms may outperform others in some crises, there is no ultimate best algorithm for all the crises. The takeaway from this thesis is that there is no ultimate best reinforcement algorithm for all crises. Therefore, each crisis should be examined separately. Last but not least, the results also show that better results can be obtained with more time and computation power, and this topic is open to further research.
+
+## Code
+The demo coding part includes a supply chain simulation, a learning process, and results. Proximal Policy Optimization (PPO) algorithm was used as a demo algorithm. or-gym library was used as the base of the supply chain simulation (https://github.com/hubbs5/or-gym) and stable-baselines3 library was used as the reinforcement learning framework (https://github.com/DLR-RM/stable-baselines3). All the codes are accessible in the complete coding part.
